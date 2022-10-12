@@ -87,3 +87,11 @@ $(".introtab li:eq(2) a").click(
         $(".tab03").show();
     }
 );
+
+// 햄버거
+$(".burger").click(
+    function(){
+        $(this).toggleClass("on");
+        $(".popup_nav").toggleClass("on");
+    }
+);
